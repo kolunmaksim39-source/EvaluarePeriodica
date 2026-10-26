@@ -27,3 +27,48 @@ ul a {
     text-decoration: none;
     color: black;
 }
+
+.hero {
+    background: #4a2a3A; 
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    background: #c29a4b;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: #f9f9f9;
+    width: 700px;
+    margin: -40px auto 0;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.stats b {
+    display: block;
+    font-size: 26px;
+}
+
+.stats span {
+    color: gray;
+    font-size: 13px;
+}
