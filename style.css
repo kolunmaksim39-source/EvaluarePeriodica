@@ -12,7 +12,7 @@ header {
     background: white;
 }
 
-logo {
+.logo {
     font-size: 24px;
     color: #6b2339;
 }
@@ -110,9 +110,11 @@ section h2 {
     width: 280px;
     text-align: left; 
 }
+
 .reviews .card p:first-child {
     color: #c29a4b; 
 }
+
 .reviews .card h3 { 
     margin-top: 10px; 
     font-size: 15px; 
@@ -141,4 +143,227 @@ section h2 {
 
 .gallery .big { 
     grid-row: span 2; 
+}
+
+.packages .card { 
+    width: 260px; 
+    text-align: left; 
+}
+
+.packages .price { 
+    font-size: 32px; 
+    color: #2b2226; 
+    margin: 10px 0; 
+}
+
+.packages ul { 
+    list-style: none; 
+    margin-bottom: 25px; 
+}
+
+.packages li { 
+    font-size: 14px; 
+    padding: 6px 0; 
+    border-bottom: 1px solid #eee; 
+}
+
+.card.dark { 
+    background: #2a1820; 
+    color: white; 
+}
+
+.card.dark .price { 
+    color: white; 
+}
+
+.card.dark li { 
+    border-bottom: 1px solid #4a3a42; 
+}
+
+.btn-line { 
+    border: 1px solid #6b2339; 
+    color: #6b2339; 
+    padding: 10px 25px; 
+    border-radius: 25px; 
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+
+.newsletter { 
+    background: #a82a50; 
+    color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 30px 80px; 
+    margin-top: 60px; 
+}
+
+.newsletter form { 
+    display: flex; 
+    background: white; 
+    border-radius: 30px; 
+    padding: 5px; 
+}
+
+.newsletter input { 
+    border: none; 
+    outline: none; 
+    padding: 0 15px; 
+    width: 250px; 
+}
+
+.newsletter button { 
+    background: #c29a4b;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    cursor: pointer; 
+}
+
+
+footer { 
+    background: #2a1820; 
+    color: white; 
+    text-align: center; 
+    padding: 40px 20px 20px; 
+}
+
+footer p { 
+    font-size: 13px; 
+    opacity: 0.7; 
+    margin: 10px auto; 
+    max-width: 400px; 
+}
+
+footer .links { 
+    display: flex; 
+    justify-content: center; 
+    gap: 25px; 
+    margin: 20px 0; 
+}
+
+footer .links a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 14px; 
+}
+
+footer .copy { 
+    margin-top: 25px; 
+    font-size: 12px; 
+    max-width: none; 
+}
+
+.packages .card { 
+    width: 260px; 
+    text-align: left; 
+}
+
+.packages .price { 
+    font-size: 32px; 
+    color: #2b2226; 
+    margin: 10px 0; 
+}
+
+.packages ul { 
+    list-style: none; 
+    margin-bottom: 25px; 
+}
+
+.packages li { 
+    font-size: 14px; 
+    padding: 6px 0; 
+    border-bottom: 1px solid #eee; 
+}
+
+.card.dark { 
+    background: #2a1820; 
+    color: white; 
+}
+
+.card.dark .price { 
+    color: white; 
+}
+
+.card.dark li { 
+    border-bottom: 1px solid #4a3a42; 
+}
+
+.btn-line { 
+    border: 1px solid #6b2339; 
+    color: #6b2339; 
+    padding: 10px 25px; 
+    border-radius: 25px; 
+    text-decoration: none; 
+    display: inline-block; }
+
+
+.newsletter { 
+    background: #a82a50; 
+    color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 30px 80px; 
+    margin-top: 60px; 
+}
+
+.newsletter form { 
+    display: flex; 
+    background: white; 
+    border-radius: 30px; 
+    padding: 5px; 
+}
+
+.newsletter input { 
+    border: none; 
+    outline: none; 
+    padding: 0 15px; 
+    width: 250px; 
+}
+
+.newsletter button { 
+    background: #c29a4b;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 25px; 
+    cursor: pointer; 
+} 
+
+
+footer { 
+    background: #2a1820; 
+    color: white; 
+    text-align: center; 
+    padding: 40px 20px 20px; 
+}
+
+footer p { 
+    font-size: 13px; 
+    opacity: 0.7; 
+    margin: 10px auto; 
+    max-width: 400px; 
+}
+
+footer .links { 
+    display: flex; 
+    justify-content: center; 
+    gap: 25px; 
+    margin: 20px 0; 
+}
+
+footer .links a { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 14px; 
+}
+
+footer .copy { 
+    margin-top: 25px; 
+    font-size: 12px; 
+    max-width: none; 
 }
