@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ziua noastră</title>
+    <title>Ziua Noastră</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,14 +15,15 @@
         <span>📞 069 735 120 · saluti@ziuanoastra.md</span>
         <span>Lun-Sâmbătă, 10:00-19:00</span>
     </div>
-    
+
     <header>
-        <a class="logo" href="index.html">Ziua noastră</a>
+        <a class="logo" href="#">Ziua Noastră</a>
         <ul>
-            <li><a href="">Acasă</a></li>
-            <li><a href="">Servicii</a></li>
-            <li><a href="">Pachete</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#">Acasă</a></li>
+            <li><a href="#servicii">Servicii</a></li>
+            <li><a href="#pachete">Pachete</a></li>
+            <li><a href="#portofoliu">Portofoliu</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
         <a class="btn" href="#contact">Consultație</a>
     </header>
@@ -50,127 +52,124 @@
             <div class="card"><span class="icon">🌸</span><h3>Decor personalizat</h3><p>Flori, lumini și textile alese cu voi.</p></div>
             <div class="card"><span class="icon">📸</span><h3>Parteneri verificați</h3><p>Fotografi, DJ și formații de top.</p></div>
             <div class="card"><span class="icon">🎧</span><h3>Coordonator în ziua D</h3><p>Cineva care se ocupă de orar și oaspeți.</p></div>
+        </div>
     </section>
 
     <section class="services" id="servicii">
         <small class="label">SERVICII</small>
         <h2>Servicii pe care le puteți alege</h2>
+        <p class="sub">Le puteți comanda separat sau include într-un pachet complet.</p>
         <div class="grid4">
-            <div class="card"><img src="Imagine Decor sală.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-            <div class="card"><img src="Imagine Flori pentru miri.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-            <div class="card"><img src="Imagine Foto și video.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-            <div class="card"><img src="Imagine Tort de nuntă.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-            <div class="card"><img src="Imagine Formație live.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-            <div class="card"><img src="Imagine Invitații.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-            <div class="card"><img src="Imagine Coordonare.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-            <div class="card"><img src="Imagine Mașină decorată.png" alt="Decor"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
-            <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
-            
-
+            <div class="card"><span class="mark">TOP</span><img src="Imagine Decor sală.png" alt="Decor sală"><h3>Decor sală</h3><p>Flori, lumini, textile</p>
+                <div class="price-row"><b>900 €</b><button class="plus">+</button></div></div>
+            <div class="card"><img src="Imagine Flori pentru miri.png" alt="Flori pentru miri"><h3>Flori pentru miri</h3><p>Buchete și corsaje</p>
+                <div class="price-row"><b>250 €</b><button class="plus">+</button></div></div>
+            <div class="card"><img src="Imagine Foto și video.png" alt="Foto și video"><h3>Foto și video</h3><p>12 ore, album foto</p>
+                <div class="price-row"><b>1200 €</b><button class="plus">+</button></div></div>
+            <div class="card"><span class="mark">NOU</span><img src="Imagine Tort de nuntă.png" alt="Tort de nuntă"><h3>Tort de nuntă</h3><p>3 etaje, 80 porții</p>
+                <div class="price-row"><b>450 €</b><button class="plus">+</button></div></div>
+            <div class="card"><img src="Imagine Formație live.png" alt="Formație live"><h3>Formație live</h3><p>6 ore, muzică live</p>
+                <div class="price-row"><b>1500 €</b><button class="plus">+</button></div></div>
+            <div class="card"><img src="Imagine Invitații.png" alt="Invitații"><h3>Invitații</h3><p>100 buc., design unic</p>
+                <div class="price-row"><b>180 €</b><button class="plus">+</button></div></div>
+            <div class="card"><img src="Imagine Coordonare.png" alt="Coordonare"><h3>Coordonare</h3><p>ziua nunții, 14 ore</p>
+                <div class="price-row"><b>400 €</b><button class="plus">+</button></div></div>
+            <div class="card"><img src="Imagine Mașină decorată.png" alt="Mașină decorată"><h3>Mașină decorată</h3><p>închiriere pe zi, 5 ore</p>
+                <div class="price-row"><b>500 €</b><button class="plus">+</button></div></div>
         </div>
-    
     </section>
-    
+
     <section class="reviews">
-    <h2>Ce spun cuplurile noastre</h2>
+        <small class="label">MIRI FERICIȚI</small>
+        <h2>Ce spun cuplurile noastre</h2>
         <div class="row">
-            <div class="card"><p class="stars">★★★★★</p><p><i>Am avut 220 de invitați și nicio grijă.</i></p>
-        <div class="who"><span class="avatar">NR</span><div><h3>Natalia Rusu</h3><small>nuntă, august 2025</small></div></div></div>
-            <div class="card"><p class="stars">★★★★★</p><p><i>Decorul a fost exact ca în visul nostru.</i></p>
-        <div class="who"><span class="avatar">IC</span><div><h3>Irina Ceban</h3><small>nuntă, mai 2025</small></div></div></div>
-            <div class="card"><p class="stars">★★★★★</p><p><i>Ne-au găsit sala potrivită în 2 săptămâni.</i></p>
-        <div class="who"><span class="avatar">VL</span><div><h3>Victor Lungu</h3><small>nuntă, iunie 2025</small></div></div></div>
-    </div>
-  </section>
-
-  <section class="gallery" id="portofoliu">
-    <h2>Momente din nunțile noastre</h2>
-    <div class="grid">
-      <img class="big" src="Imagine înaltă 1x2.png" alt="Nuntă 1">
-      <img src="Imagine 1x1.png" alt="Nuntă 2">
-      <img class="big" src="Imagine înaltă 1x2 (1).png" alt="Nuntă 3">
-      <img src="Imagine 1x1 (1).png" alt="Nuntă 4">
-    </div>
-  </section>
-
-   <section class="packages" id="pachete">
-    <h2>Pachete de organizare</h2>
-    <div class="row">
-      
-        <div class="card">
-        <h3>Esențial</h3>
-        <p class="price">800 €</p>
-        <ul>
-          <li>Coordonator în ziua D</li>
-          <li>Plan și criar detaliat</li>
-          <li>2 întâlniri</li>
-        </ul>
-        <a class="btn-line" href="">Alege pachetul</a>
-      </div>
-      
-      <div class="card dark">
-        <h3>Complet</h3>
-        <p class="price">2.400 €</p>
-        <ul>
-          <li>Alegerea furnizorilor</li>
-          <li>Decor personalizat</li>
-          <li>Control al bugetului</li>
-          <li>Coordonator în ziua D</li>
-        </ul>
-        <a class="btn" href="">Alege pachetul</a>
-      </div>
-      
-      <div class="card">
-        <h3>Lux</h3>
-        <p class="price">4.500 €</p>
-        <ul>
-          <li>Tot din pachetul Complet</li>
-          <li>Nuntă în ave Dar</li>
-          <li>Asistent pentru mireasă</li>
-        </ul>
-        <a class="btn-line" href="">Alege pachetul</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="newsletter" id="contact">
-    <div>
-      <h3>Ghidul gratuit al mirilor</h3>
-      <p>Un plan de 12 luni pentru nunta voastră, pe e-mail.</p>
-    </div>
-    <form>
-      <input type="email" placeholder="Adresa ta de e-mail">
-      <button type="button">Vreau ghidul</button>
-    </form>
-  </section>
-
-  <footer>
-    <h3>Ziua Noastră</h3>
-    <p>Agenție de organizare a nunților din Chișinău. Planificare, decor și coordonare din 2014.</p>
-        <div class="links">
-        <a href="">Acasă</a>
-        <a href="">Servicii</a>
-        <a href="">Pachete</a>
-        <a href="">Portofoliu</a>
-        <a href="">Contact</a>
+            <div class="card"><p class="stars">★★★★★</p><p><i>Am avut 220 de invitați și nicio grijă. Coordonatoarea a rezolvat totul înainte să ne dăm seama.</i></p>
+                <div class="who"><span class="avatar">NR</span><div><h3>Natalia Rusu</h3><small>nuntă, august 2025</small></div></div></div>
+            <div class="card"><p class="stars">★★★★★</p><p><i>Decorul a fost exact cum l-am visat, iar invitații încă ne felicită.</i></p>
+                <div class="who"><span class="avatar">IC</span><div><h3>Irina Ceban</h3><small>nuntă, iunie 2026</small></div></div></div>
+            <div class="card"><p class="stars">★★★★★</p><p><i>Ne-au găsit restaurant în 3 săptămâni, în plin sezon. Profesioniști adevărați!</i></p>
+                <div class="who"><span class="avatar">VL</span><div><h3>Victor Lungu</h3><small>nuntă, septembrie 2025</small></div></div></div>
         </div>
-    <p class="copy">© 2026 Agenția Ziua Noastră. Făcut cu ♥ de [numele studentului]</p>
-  </footer>
+    </section>
+
+    <section class="gallery" id="portofoliu">
+        <small class="label">PORTOFOLIU</small>
+        <h2>Momente din nunțile noastre</h2>
+        <div class="grid">
+            <img class="big" src="Imagine înaltă 1x2.png" alt="Nuntă 1">
+            <img src="Imagine 1x1.png" alt="Nuntă 2">
+            <img class="big" src="Imagine înaltă 1x2 (1).png" alt="Nuntă 3">
+            <img src="Imagine 1x1 (1).png" alt="Nuntă 4">
+        </div>
+    </section>
+
+    <section class="packages" id="pachete">
+        <small class="label">PACHETE</small>
+        <h2>Pachete de organizare</h2>
+        <p class="sub">Prețul acoperă munca echipei, restaurantul și furnizorii se achită separat.</p>
+        <div class="row">
+            <div class="card">
+                <h3>Esențial</h3>
+                <p class="price">800 € <small>/ nuntă</small></p>
+                <ul>
+                    <li>Coordonator în ziua D</li>
+                    <li>Plan și buget detaliat</li>
+                    <li>2 întâlniri</li>
+                </ul>
+                <a class="btn-line" href="#contact">Alege pachetul</a>
+            </div>
+            <div class="card dark">
+                <span class="badge">PREFERAT</span>
+                <h3>Complet</h3>
+                <p class="price">2.400 € <small>/ nuntă</small></p>
+                <ul>
+                    <li>Alegerea furnizorilor</li>
+                    <li>Decor personalizat</li>
+                    <li>Control al bugetului</li>
+                    <li>Coordonator în ziua D</li>
+                </ul>
+                <a class="btn" href="#contact">Alege pachetul</a>
+            </div>
+            <div class="card">
+                <h3>Lux</h3>
+                <p class="price">4.500 € <small>/ nuntă</small></p>
+                <ul>
+                    <li>Tot din pachetul Complet</li>
+                    <li>Nuntă în aer liber</li>
+                    <li>Asistent pentru mireasă</li>
+                </ul>
+                <a class="btn-line" href="#contact">Alege pachetul</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+        <div>
+            <h3>Ghidul gratuit al mirilor</h3>
+            <p>Un plan de 12 luni pentru nunta voastră, pe e-mail.</p>
+        </div>
+        <form>
+            <input type="email" placeholder="Adresa ta de e-mail">
+            <button type="button">Vreau ghidul</button>
+        </form>
+    </section>
+
+    <footer>
+        <h3 class="logo-footer">Ziua Noastră</h3>
+        <p>Agenție de organizare a nunților din Chișinău. Planificare, decor și coordonare din 2014.</p>
+        <div class="links">
+            <a href="#">Acasă</a>
+            <a href="#servicii">Servicii</a>
+            <a href="#pachete">Pachete</a>
+            <a href="#portofoliu">Portofoliu</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="social"><span>f</span><span>in</span><span>ig</span><span>yt</span></div>
+        <p class="copy">© 2026 Agenția Ziua Noastră. Făcut cu ♥ de [numele studentului]</p>
+    </footer>
+
     <a class="call" href="tel:069735120">📞 Sună-ne</a>
+
 </body>
 
 </html>
